@@ -38,7 +38,9 @@
   "license": "ISC",
   "dependencies": {
     "deepmerge-ts": "^5.1.0",
-    "discord.js": "^14.13.0",
     "serialize-javascript": "^6.0.1"
+  },
+  "peerDependencies": {
+    "discord.js": ">=14.0.0"
   }
 }
